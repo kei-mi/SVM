@@ -5,4 +5,4 @@ SVMの簡単な説明
 
 ![svm_example](https://user-images.githubusercontent.com/91111835/154810400-403d050e-71d0-4824-b477-81b90a37cb60.png)
 
-データを分割する直線をf(x)とします。このときf(x)は以下となります。
+データを分割する青い直線をf(x)とします。このときf(x)は以下となります。
