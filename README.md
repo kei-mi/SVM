@@ -88,6 +88,14 @@ step5, すべてのデータがそれぞれ適した集合
 が解）。
 そうでなければsetp2へ
 
+以下、コードに出てくる関数の説明
+
+前提：あらかじめnumpyとmatplotlib.pyplot、pandas、scaleのインポートが必要
+
+
+
+
+
 <img src="https://latex.codecogs.com/svg.image?\textit{O}" title="\textit{O}" />
 <img src="https://latex.codecogs.com/svg.image?\textit{M}" title="\textit{M}" />
 <img src="https://latex.codecogs.com/svg.image?\textit{I}" title="\textit{I}" />
