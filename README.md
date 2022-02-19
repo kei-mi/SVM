@@ -19,9 +19,7 @@
 <img src="https://latex.codecogs.com/svg.image?\alpha,\beta" title="\alpha,\beta" />
 は以下の定理を満たす。         
 
-
-定理の図
-
+<img src="https://user-images.githubusercontent.com/91111835/154815554-aa4f8755-b82e-4b80-969f-ea0c6782a08b.png" width="300px">
 
 この定理を満たす
 <img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
