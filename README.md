@@ -121,8 +121,14 @@ solve()
 
 <img src="https://latex.codecogs.com/svg.image?\mathbf{Q}_M_{i,j}=y_i&space;y_j&space;\mathbf{x}_i^\mathsf{T}&space;\mathbf{x}_j" title="\mathbf{Q}_M_{i,j}=y_i y_j \mathbf{x}_i^\mathsf{T} \mathbf{x}_j" />　　<img src="https://latex.codecogs.com/svg.image?i,j&space;\in&space;\textit{M}" title="i,j \in \textit{M}" />
 
-<img src="https://latex.codecogs.com/svg.image?\mathbf{Q}_M_{i,j}=y_i&space;y_j&space;\mathbf{x}_i^\mathsf{T}&space;\mathbf{x}_j" title="\mathbf{Q}_M_{i,j}=y_i y_j \mathbf{x}_i^\mathsf{T} \mathbf{x}_j" />　　<img src="https://latex.codecogs.com/svg.image?i\in&space;\textit{M},j\in&space;\textit{I}" title="i\in \textit{M},j\in \textit{I}" />
+<img src="https://latex.codecogs.com/svg.image?\mathbf{Q}_{MIi,j}=y_iy_j\mathbf{x}_i^\mathsf{T}\mathbf{x}_j" title="\mathbf{Q}_{MIi,j}=y_iy_j\mathbf{x}_i^\mathsf{T}\mathbf{x}_j" />　　<img src="https://latex.codecogs.com/svg.image?i\in&space;\textit{M},j\in&space;\textit{I}" title="i\in \textit{M},j\in \textit{I}" />
+と定義する。このとき以下の式
 
+<img src="https://latex.codecogs.com/svg.image?\begin{bmatrix}&space;\mathbf{Q}_M&y_M&space;&space;\\&space;y_M^\mathsf{T}&0&space;&space;\\\end{bmatrix}\begin{bmatrix}&space;\alpha_M\\&space;\beta\end{bmatrix}&space;=-C\begin{bmatrix}\mathbf{Q}_{MI}&space;\mathbf{1}&space;\\\textbf{1}^\mathsf{T}y_I\end{bmatrix}&space;&plus;\begin{bmatrix}\textbf{1}&space;\\0\end{bmatrix}&space;" title="\begin{bmatrix} \mathbf{Q}_M&y_M \\ y_M^\mathsf{T}&0 \\\end{bmatrix}\begin{bmatrix} \alpha_M\\ \beta\end{bmatrix} =-C\begin{bmatrix}\mathbf{Q}_{MI} \mathbf{1} \\\textbf{1}^\mathsf{T}y_I\end{bmatrix} +\begin{bmatrix}\textbf{1} \\0\end{bmatrix} " />
+
+を
+<img src="https://latex.codecogs.com/svg.image?\alpha,\beta" title="\alpha,\beta" />
+について解いている。
 
 <img src="https://latex.codecogs.com/svg.image?\textit{O}" title="\textit{O}" />
 <img src="https://latex.codecogs.com/svg.image?\textit{M}" title="\textit{M}" />
