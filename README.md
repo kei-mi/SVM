@@ -2,4 +2,4 @@
 **有効制約法を用いたパラメータの学習**
 
 SVMの簡単な説明
-![SVM example](https://github.com/kei-mi/SVM/issues/1#issue-1144785084)
+![svm_example](https://user-images.githubusercontent.com/91111835/154810400-403d050e-71d0-4824-b477-81b90a37cb60.png)
