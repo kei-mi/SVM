@@ -11,3 +11,6 @@ SVMの簡単な説明
 
 <img src="https://latex.codecogs.com/svg.image?\alpha&space;=&space;\begin{bmatrix}&space;\alpha_1\\&space;\vdots\\&space;\alpha_3\end{bmatrix}" title="\alpha = \begin{bmatrix} \alpha_1\\ \vdots\\ \alpha_3\end{bmatrix}" />
 
+データ(x,y)を分割する関数fのパラメータ
+<img src="https://latex.codecogs.com/svg.image?\alpha,\beta" title="\alpha,\beta" />
+は以下の定理を満たす。
