@@ -228,4 +228,4 @@ AS.optimize_alpha()
 
 出力
 
-<img src="https://user-images.githubusercontent.com/91111835/154817914-290ce910-f775-4884-b107-35e96b8d50f3.png" width="300px">
+<img src="https://user-images.githubusercontent.com/91111835/154818082-c0a2b9f0-08e4-4b33-bc72-236171d76a6b.png" width="300px">
