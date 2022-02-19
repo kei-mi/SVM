@@ -1,5 +1,5 @@
 # 自作の線形サポートベクター分類（ソフトマージン）
-**有効制約法(Active set method)を用いたパラメータの学習**
+**有効制約法(Active Set Method)を用いたパラメータの学習**
 
 SVMの簡単な説明
 
@@ -21,10 +21,29 @@ SVMの簡単な説明
 
 この定理を満たす
 <img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
-を有効制約法(Active set method)を用いて見つける。（
+を有効制約法(Active Set Method)を用いて見つける。（
 <img src="https://latex.codecogs.com/svg.image?\beta" title="\beta" />
 は
 <img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
-から作れる）\\
+から作れる）
 
-有効制約法(Active set method)
+有効制約法(Active Set Method)
+
+setp1, すべてのデータが集合
+<img src="https://latex.codecogs.com/svg.image?\textit{O}" title="\textit{O}" />
+に属する状態、かつ
+<img src="https://latex.codecogs.com/svg.image?\alpha=0" title="\alpha=0" />
+から始める。
+
+step2, 
+<img src="https://latex.codecogs.com/svg.image?\textit{I}" title="\textit{I}" />
+に属するデータの中で最も
+<img src="https://latex.codecogs.com/svg.image?\textit{I}" title="\textit{I}" />
+に適していないデータを
+<img src="https://latex.codecogs.com/svg.image?\textit{M}" title="\textit{M}" />
+に移す。
+
+
+<img src="https://latex.codecogs.com/svg.image?\textit{O}" title="\textit{O}" />
+<img src="https://latex.codecogs.com/svg.image?\textit{M}" title="\textit{M}" />
+<img src="https://latex.codecogs.com/svg.image?\textit{I}" title="\textit{I}" />
