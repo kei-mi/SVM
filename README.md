@@ -41,8 +41,13 @@ step2,
 <img src="https://latex.codecogs.com/svg.image?\textit{I}" title="\textit{I}" />
 に適していないデータを
 <img src="https://latex.codecogs.com/svg.image?\textit{M}" title="\textit{M}" />
+に移す、または
+<img src="https://latex.codecogs.com/svg.image?\textit{O}" title="\textit{O}" />
+に属するデータの中で最も
+<img src="https://latex.codecogs.com/svg.image?\textit{O}" title="\textit{O}" />
+に適していないデータを
+<img src="https://latex.codecogs.com/svg.image?\textit{M}" title="\textit{M}" />
 に移す。
-
 
 <img src="https://latex.codecogs.com/svg.image?\textit{O}" title="\textit{O}" />
 <img src="https://latex.codecogs.com/svg.image?\textit{M}" title="\textit{M}" />
