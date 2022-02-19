@@ -54,6 +54,13 @@ step3,
 に属するデータを用いて
 <img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
 (仮)を作る。
+<img src="https://latex.codecogs.com/svg.image?0\leq&space;\alpha\leq&space;C" title="0\leq \alpha\leq C" />
+を満たす範囲で
+<img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
+を
+<img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
+(仮)に近づける。
+
 
 <img src="https://latex.codecogs.com/svg.image?\textit{O}" title="\textit{O}" />
 <img src="https://latex.codecogs.com/svg.image?\textit{M}" title="\textit{M}" />
