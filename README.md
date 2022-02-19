@@ -1,7 +1,7 @@
 # 自作の線形サポートベクター分類（ソフトマージン）
-**有効制約法(Active Set Method)を用いたパラメータの学習**
+## 有効制約法(Active Set Method)を用いたパラメータの学習
 
-###SVMの簡単な説明
+### SVMの簡単な説明
 
 ![svm_example](https://user-images.githubusercontent.com/91111835/154810400-403d050e-71d0-4824-b477-81b90a37cb60.png)
 
@@ -30,7 +30,7 @@
 から作れる）
 
 
-###有効制約法(Active Set Method)の簡単な説明
+### 有効制約法(Active Set Method)の簡単な説明
 
 setp1, すべてのデータが集合
 <img src="https://latex.codecogs.com/svg.image?\textit{O}" title="\textit{O}" />
@@ -87,7 +87,7 @@ step5, すべてのデータがそれぞれ適した集合
 が解）。
 そうでなければsetp2へ
 
-###コードに出てくる関数の説明
+### コードに出てくる関数の説明
 
 前提：あらかじめnumpyとmatplotlib.pyplot、pandas、scaleのインポートが必要
 
