@@ -35,6 +35,8 @@
 
 ### 有効制約法(Active Set Method)の簡単な説明
 
+以下のステップを順に行う。
+
 setp1, すべてのデータが集合
 <img src="https://latex.codecogs.com/svg.image?\textit{O}" title="\textit{O}" />
 に属する状態、かつ
