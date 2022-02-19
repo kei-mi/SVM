@@ -120,7 +120,7 @@ solve()
 
 <img src="https://latex.codecogs.com/svg.image?\mathbf{Q}_M=\begin{bmatrix}\mathbf{Q}_M_{i,j}\end{bmatrix}" title="\mathbf{Q}_M=\begin{bmatrix}\mathbf{Q}_M_{i,j}\end{bmatrix}" />
 
-<img src="https://latex.codecogs.com/svg.image?\mathbf{Q}_M_{i,j}=y_i&space;y_j&space;\mathbf{x}_i^\mathsf{T}&space;\mathbf{x}_j" title="\mathbf{Q}_M_{i,j}=y_i y_j \mathbf{x}_i^\mathsf{T} \mathbf{x}_j" /><img src="https://latex.codecogs.com/svg.image?i,j&space;\in&space;\textit{M}" title="i,j \in \textit{M}" />
+<img src="https://latex.codecogs.com/svg.image?\mathbf{Q}_M_{i,j}=y_i&space;y_j&space;\mathbf{x}_i^\mathsf{T}&space;\mathbf{x}_j" title="\mathbf{Q}_M_{i,j}=y_i y_j \mathbf{x}_i^\mathsf{T} \mathbf{x}_j" />　　　<img src="https://latex.codecogs.com/svg.image?i,j&space;\in&space;\textit{M}" title="i,j \in \textit{M}" />
 
 
 <img src="https://latex.codecogs.com/svg.image?\textit{O}" title="\textit{O}" />
