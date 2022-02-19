@@ -17,3 +17,12 @@ SVMの簡単な説明
 <img src="https://latex.codecogs.com/svg.image?\alpha,\beta" title="\alpha,\beta" />
 は以下の定理を満たす。
 
+定理の図
+
+この定理を満たす
+<img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
+を有効制約法を用いて見つける。（
+<img src="https://latex.codecogs.com/svg.image?\beta" title="\beta" />
+は
+<img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
+から作れる）
