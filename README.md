@@ -97,25 +97,25 @@ calc_hyperplane():
 <img src="https://latex.codecogs.com/svg.image?f(\mathbf{x})=\sum_{i=1}^{N}&space;\alpha_i&space;y_i&space;\mathbf{x}_i^\mathsf{T}\mathbf{x}&plus;\beta" title="f(\mathbf{x})=\sum_{i=1}^{N} \alpha_i y_i \mathbf{x}_i^\mathsf{T}\mathbf{x}+\beta" />
 
 に<img src="https://latex.codecogs.com/svg.image?\mathbf{x}=\rm{list\_type}" title="\mathbf{x}=\rm{list\_type}" />
-を代入したときの値を返す関数
+を代入したときの値を返す関数。
 
 make_hyperplane()
 
 描画用の
 <img src="https://latex.codecogs.com/svg.image?f(\mathbf{x})" title="f(\mathbf{x})" />
-を返す関数
+を返す関数。
 
 inappropriate_data()
 
-step2で用いる、適していない集合に属するデータの個数を返す関数
+step2で用いる、適していない集合に属するデータの個数を返す関数。
 
 transfer_data()
 
-step2,step4で用いる、データを別の集合に移す関数
+step2,step4で用いる、データを別の集合に移す関数。
 
 solve()
 
-<img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />(仮)を作る関数
+<img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />(仮)を作る関数。より具体的には
 
 <img src="https://latex.codecogs.com/svg.image?\mathbf{Q}_M=\begin{bmatrix}\mathbf{Q}_M_{i,j}\end{bmatrix}" title="\mathbf{Q}_M=\begin{bmatrix}\mathbf{Q}_M_{i,j}\end{bmatrix}" />
 
@@ -129,6 +129,26 @@ solve()
 を
 <img src="https://latex.codecogs.com/svg.image?\alpha,\beta" title="\alpha,\beta" />
 について解いている。
+
+calc_eta()
+
+step3の
+<img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
+を
+<img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />(仮)
+に近づける度合いを返す関数。
+
+plot_scatter()
+
+データだけのプロット（超平面はなし）する関数。
+
+plot_scatter_hyperplane()
+データと超平面のプロットする関数。
+
+optimize_alpha()
+
+step1~step5までを行う関数。
+
 
 <img src="https://latex.codecogs.com/svg.image?\textit{O}" title="\textit{O}" />
 <img src="https://latex.codecogs.com/svg.image?\textit{M}" title="\textit{M}" />
