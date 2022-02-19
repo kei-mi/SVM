@@ -180,4 +180,17 @@ step3の
 - optimize_alpha()
 
 step1~step5までを行う関数。
+<br>
+<br>
+<br>
 
+### 実行例
+import pandas
+import numpy
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import scale
+
+AS = ActiveSet(50, 2)
+AS.optimize_alpha()
+
+出力
