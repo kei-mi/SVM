@@ -61,6 +61,18 @@ step3,
 <img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
 (仮)に近づける。
 
+step4, 
+<img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
+(仮)に近づけた
+<img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
+と帳尻が合うように
+<img src="https://latex.codecogs.com/svg.image?\textit{M}" title="\textit{M}" />
+が属するデータを
+<img src="https://latex.codecogs.com/svg.image?\textit{O}" title="\textit{O}" />
+または
+<img src="https://latex.codecogs.com/svg.image?\textit{I}" title="\textit{I}" />
+に移す。
+
 
 <img src="https://latex.codecogs.com/svg.image?\textit{O}" title="\textit{O}" />
 <img src="https://latex.codecogs.com/svg.image?\textit{M}" title="\textit{M}" />
