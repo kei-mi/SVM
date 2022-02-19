@@ -1,5 +1,5 @@
 # 自作の線形サポートベクター分類（ソフトマージン）
-**有効制約法を用いたパラメータの学習**
+**有効制約法(Active set method)を用いたパラメータの学習**
 
 SVMの簡単な説明
 
@@ -21,8 +21,10 @@ SVMの簡単な説明
 
 この定理を満たす
 <img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
-を有効制約法を用いて見つける。（
+を有効制約法(Active set method)を用いて見つける。（
 <img src="https://latex.codecogs.com/svg.image?\beta" title="\beta" />
 は
 <img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
-から作れる）
+から作れる）\\
+
+有効制約法(Active set method)
