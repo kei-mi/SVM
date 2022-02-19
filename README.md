@@ -94,7 +94,8 @@ step5, すべてのデータがそれぞれ適した集合
 
 calc_hyperplane():
 
-<img src="https://latex.codecogs.com/svg.image?f(x)&space;=&space;\sum^N_{i=1}&space;\alpha_i&space;y_i&space;\mathbf{x}_i^\mathsf{T}&space;\mathbf{x}&plus;\beta" title="f(x) = \sum^N_{i=1} \alpha_i y_i \mathbf{x}_i^\mathsf{T} \mathbf{x}+\beta" />に<img src="https://latex.codecogs.com/svg.image?\mathbf{x}=\rm{list\_type}" title="\mathbf{x}=\rm{list\_type}" />
+<img src="https://latex.codecogs.com/svg.image?f(\mathbf{x})=\sum_{i=1}^{N}&space;\alpha_i&space;y_i&space;\mathbf{x}_i^\mathsf{T}\mathbf{x}&plus;\beta" title="f(\mathbf{x})=\sum_{i=1}^{N} \alpha_i y_i \mathbf{x}_i^\mathsf{T}\mathbf{x}+\beta" />
+に<img src="https://latex.codecogs.com/svg.image?\mathbf{x}=\rm{list\_type}" title="\mathbf{x}=\rm{list\_type}" />
 を代入したときの値
 
 
