@@ -53,7 +53,7 @@ step3,
 <img src="https://latex.codecogs.com/svg.image?\textit{M}" title="\textit{M}" />
 に属するデータを用いて
 <img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
-（仮）を作る。
+(仮)を作る。
 
 <img src="https://latex.codecogs.com/svg.image?\textit{O}" title="\textit{O}" />
 <img src="https://latex.codecogs.com/svg.image?\textit{M}" title="\textit{M}" />
