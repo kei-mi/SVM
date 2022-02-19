@@ -173,7 +173,7 @@ step3の
 <br>
 
 - plot_scatter_hyperplane()
-- 
+
 データと超平面のプロットする関数。
 <br>
 <br>
