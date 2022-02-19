@@ -7,7 +7,7 @@ SVMの簡単な説明
 
 データを分割する青い直線をf(x)とします。このときf(x)は以下となります。
 
-<img src="https://latex.codecogs.com/svg.image?f(x)&space;=&space;\sum^N_{i=1}&space;\alpha_i&space;y_i&space;\mathbf{x}_i^\mathsf{T}&space;\mathbf{x}&plus;\beta" title="f(x) = \sum^N_{i=1} \alpha_i y_i \mathbf{x}_i^\mathsf{T} \mathbf{x}+\beta" />
+<img src="https://latex.codecogs.com/svg.image?f(\mathbf{x})=\sum_{i=1}^{N}&space;\alpha_i&space;y_i&space;\mathbf{x}_i^\mathsf{T}\mathbf{x}&plus;\beta" title="f(\mathbf{x})=\sum_{i=1}^{N} \alpha_i y_i \mathbf{x}_i^\mathsf{T}\mathbf{x}+\beta" />
 
 <img src="https://latex.codecogs.com/svg.image?\alpha&space;=&space;\begin{bmatrix}&space;\alpha_1\\&space;\vdots\\&space;\alpha_3\end{bmatrix}" title="\alpha = \begin{bmatrix} \alpha_1\\ \vdots\\ \alpha_3\end{bmatrix}" />
 
