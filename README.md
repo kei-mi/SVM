@@ -73,6 +73,16 @@ step4,
 <img src="https://latex.codecogs.com/svg.image?\textit{I}" title="\textit{I}" />
 に移す。
 
+step5, すべてのデータがそれぞれ適した集合
+<img src="https://latex.codecogs.com/svg.image?\textit{O}" title="\textit{O}" />
+,
+<img src="https://latex.codecogs.com/svg.image?\textit{I}" title="\textit{I}" />
+,
+<img src="https://latex.codecogs.com/svg.image?\textit{M}" title="\textit{M}" />
+に属していたら終了。（終了時の
+<img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
+が解）
+そうでなければsetp2へ
 
 <img src="https://latex.codecogs.com/svg.image?\textit{O}" title="\textit{O}" />
 <img src="https://latex.codecogs.com/svg.image?\textit{M}" title="\textit{M}" />
