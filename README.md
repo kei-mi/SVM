@@ -30,7 +30,8 @@
 は
 <img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
 から作れる）
-
+<br>
+<br>
 
 ### 有効制約法(Active Set Method)の簡単な説明
 
@@ -88,10 +89,13 @@ step5, すべてのデータがそれぞれ適した集合
 <img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
 が解）。
 そうでなければsetp2へ
+<br>
+<br>
 
 ### コードに出てくる関数の説明
 
 前提：あらかじめnumpyとmatplotlib.pyplot、pandas、scaleのインポートが必要
+<br>
 
 calc_hyperplane():
 
