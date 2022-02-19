@@ -11,13 +11,16 @@ SVMの簡単な説明
 
 <img src="https://latex.codecogs.com/svg.image?\alpha&space;=&space;\begin{bmatrix}&space;\alpha_1\\&space;\vdots\\&space;\alpha_3\end{bmatrix}" title="\alpha = \begin{bmatrix} \alpha_1\\ \vdots\\ \alpha_3\end{bmatrix}" />
 
+
 データ
 <img src="https://latex.codecogs.com/svg.image?(x_i,y_i)" title="(x_i,y_i)" />
 を分割する関数fのパラメータ
 <img src="https://latex.codecogs.com/svg.image?\alpha,\beta" title="\alpha,\beta" />
 は以下の定理を満たす。
 
+
 定理の図
+
 
 この定理を満たす
 <img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
@@ -26,6 +29,7 @@ SVMの簡単な説明
 は
 <img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
 から作れる）
+
 
 有効制約法(Active Set Method)の簡単な説明
 
