@@ -185,12 +185,47 @@ step1~step5までを行う関数。
 <br>
 
 ### 実行例
+1. クラス内で用意されたデータを用いる場合
+
 import pandas
+
 import numpy
+
 import matplotlib.pyplot as plt
+
 from sklearn.preprocessing import scale
+<br>
 
 AS = ActiveSet(50, 2)
+
 AS.optimize_alpha()
+<br>
+<br>
 
 出力
+
+<img src="https://user-images.githubusercontent.com/91111835/154817914-290ce910-f775-4884-b107-35e96b8d50f3.png" width="300px">
+<br>
+<br>
+<br>
+
+2. 自分でデータを用意する場合
+
+import pandas
+
+import numpy
+
+import matplotlib.pyplot as plt
+
+from sklearn.preprocessing import scale
+<br>
+
+AS = ActiveSet(100, 2, data_set="train_svm.xlsx")
+
+AS.optimize_alpha()
+<br>
+<br>
+
+出力
+
+<img src="https://user-images.githubusercontent.com/91111835/154817914-290ce910-f775-4884-b107-35e96b8d50f3.png" width="300px">
