@@ -27,7 +27,7 @@ SVMの簡単な説明
 <img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
 から作れる）
 
-有効制約法(Active Set Method)
+有効制約法(Active Set Method)の簡単な説明
 
 setp1, すべてのデータが集合
 <img src="https://latex.codecogs.com/svg.image?\textit{O}" title="\textit{O}" />
@@ -48,6 +48,12 @@ step2,
 に適していないデータを
 <img src="https://latex.codecogs.com/svg.image?\textit{M}" title="\textit{M}" />
 に移す。
+
+step3, 
+<img src="https://latex.codecogs.com/svg.image?\textit{M}" title="\textit{M}" />
+に属するデータを用いて
+<img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
+（仮）を作る。
 
 <img src="https://latex.codecogs.com/svg.image?\textit{O}" title="\textit{O}" />
 <img src="https://latex.codecogs.com/svg.image?\textit{M}" title="\textit{M}" />
