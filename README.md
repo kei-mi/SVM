@@ -15,7 +15,7 @@
 <img src="https://latex.codecogs.com/svg.image?(x_i,y_i)" title="(x_i,y_i)" />
 を分割する関数fのパラメータ
 <img src="https://latex.codecogs.com/svg.image?\alpha,\beta" title="\alpha,\beta" />
-は以下の定理を満たす。
+は以下の定理を満たす。         
 
 
 定理の図
