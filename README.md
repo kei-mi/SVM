@@ -94,7 +94,7 @@ step5, すべてのデータがそれぞれ適した集合
 <br>
 <br>
 
-### コードに出てくる関数の説明
+### コード(active_set_method.py)に出てくる関数の説明
 
 前提：あらかじめnumpyとmatplotlib.pyplot、pandas、scaleのインポートが必要
 <br>
