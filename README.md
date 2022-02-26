@@ -2,14 +2,14 @@
 ## 有効制約法(Active Set Method)を用いたパラメータの学習
 
 ### 制作背景
-SVMカーネルの選択基準を研究したいと考えています。そのためにはSVMの理解が必須であり、SVMのパラメータの学習アルゴリズムを理解せず既存の関数に頼るのはよくないです。
-なのでSVMのパラメータの学習アルゴリズムを理解するために、そのアルゴリズムの一つである有効制約法（Active Set Method）を自作しました。
+SVMカーネルの選択基準を研究したい。そのためにはSVMの理解が必須であり、SVMのパラメータの学習アルゴリズムを理解せず既存の関数に頼るのはよくない。
+なのでSVMのパラメータの学習アルゴリズムを理解するために、そのアルゴリズムの一つである有効制約法（Active Set Method）を自作した。
 
 ### 線形SVMの簡単な説明
 
 ![svm_example](https://user-images.githubusercontent.com/91111835/154810400-403d050e-71d0-4824-b477-81b90a37cb60.png)
 
-データを分割する青い直線をf(x)とします。このときf(x)は以下となります。
+データを分割する青い直線をf(x)とします。このときf(x)は以下となる。
 
 <img src="https://latex.codecogs.com/svg.image?f(\mathbf{x})=\sum_{i=1}^{N}&space;\alpha_i&space;y_i&space;\mathbf{x}_i^\mathsf{T}\mathbf{x}&plus;\beta" title="f(\mathbf{x})=\sum_{i=1}^{N} \alpha_i y_i \mathbf{x}_i^\mathsf{T}\mathbf{x}+\beta" />
 
