@@ -9,7 +9,7 @@ SVMの計算時間の改善を研究したい。そのためにはSVMの理解�
 
 ![svm_example1](https://user-images.githubusercontent.com/91111835/156761372-3121394b-7442-4f1e-bd94-d292ab417491.png)
 
-データを分割する青い直線をf(x)とします。このときf(x)は以下となる。
+データを分割する直線をf(x)とします。このときf(x)は以下となる。
 
 <img src="https://latex.codecogs.com/svg.image?f(\mathbf{x})=\sum_{i=1}^{N}&space;\alpha_i&space;y_i&space;\mathbf{x}_i^\mathsf{T}\mathbf{x}&plus;\beta" title="f(\mathbf{x})=\sum_{i=1}^{N} \alpha_i y_i \mathbf{x}_i^\mathsf{T}\mathbf{x}+\beta" />
 
