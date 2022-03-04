@@ -30,60 +30,19 @@ SVMの計算時間の改善を研究したい。そのためにはSVMの理解�
 
 以下のステップを順に行う。
 
-setp1, すべてのデータが集合
-<img src="https://latex.codecogs.com/svg.image?\textit{O}" title="\textit{O}" />
-に属する状態、かつ
-<img src="https://latex.codecogs.com/svg.image?\alpha=0" title="\alpha=0" />
-から始める。
+setp1, <img src="http://latex.codecogs.com/svg.latex?\alpha=0&space;" title="http://latex.codecogs.com/svg.latex?\alpha=0 " /> で初期化する。
 
 step2, 
-<img src="https://latex.codecogs.com/svg.image?\textit{I}" title="\textit{I}" />
-に属するデータの中で最も
-<img src="https://latex.codecogs.com/svg.image?\textit{I}" title="\textit{I}" />
-に適していないデータを
-<img src="https://latex.codecogs.com/svg.image?\textit{M}" title="\textit{M}" />
-に移す、または
-<img src="https://latex.codecogs.com/svg.image?\textit{O}" title="\textit{O}" />
-に属するデータの中で最も
-<img src="https://latex.codecogs.com/svg.image?\textit{O}" title="\textit{O}" />
-に適していないデータを
-<img src="https://latex.codecogs.com/svg.image?\textit{M}" title="\textit{M}" />
-に移す。
+最適ではない可能性が高い <img src="http://latex.codecogs.com/svg.latex?\alpha&space;" title="http://latex.codecogs.com/svg.latex?\alpha " /> のペア <img src="http://latex.codecogs.com/svg.latex?\alpha_i,\alpha_j" title="http://latex.codecogs.com/svg.latex?\alpha_i,\alpha_j" /> を見つける。
 
 step3, 
-<img src="https://latex.codecogs.com/svg.image?\textit{M}" title="\textit{M}" />
-に属するデータを用いて
-<img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
-(仮)を作る。
-<img src="https://latex.codecogs.com/svg.image?0\leq&space;\alpha\leq&space;C" title="0\leq \alpha\leq C" />
-を満たす範囲で
-<img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
-を
-<img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
-(仮)に近づける。
+その <img src="http://latex.codecogs.com/svg.latex?\alpha_i,\alpha_j" title="http://latex.codecogs.com/svg.latex?\alpha_i,\alpha_j" /> に対して制約を無視したときの最適な <img src="http://latex.codecogs.com/svg.latex?\alpha_i,\alpha_j" title="http://latex.codecogs.com/svg.latex?\alpha_i,\alpha_j" /> を求める。
 
 step4, 
-<img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
-(仮)に近づけた
-<img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
-と帳尻が合うように
-<img src="https://latex.codecogs.com/svg.image?\textit{M}" title="\textit{M}" />
-が属するデータを
-<img src="https://latex.codecogs.com/svg.image?\textit{O}" title="\textit{O}" />
-または
-<img src="https://latex.codecogs.com/svg.image?\textit{I}" title="\textit{I}" />
-に移す。
+制約を満たすように <img src="http://latex.codecogs.com/svg.latex?\alpha_i,\alpha_j" title="http://latex.codecogs.com/svg.latex?\alpha_i,\alpha_j" /> を修正する。
 
-step5, すべてのデータがそれぞれ適した集合
-<img src="https://latex.codecogs.com/svg.image?\textit{O}" title="\textit{O}" />
-,
-<img src="https://latex.codecogs.com/svg.image?\textit{I}" title="\textit{I}" />
-,
-<img src="https://latex.codecogs.com/svg.image?\textit{M}" title="\textit{M}" />
-に属していたら終了（終了時の
-<img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
-が解）。
-そうでなければsetp2へ
+step5,
+<img src="http://latex.codecogs.com/svg.latex?\alpha_i,\alpha_j" title="http://latex.codecogs.com/svg.latex?\alpha_i,\alpha_j" /> が改善しなくなるまでstep2へ。そうでない場合、得られた <img src="http://latex.codecogs.com/svg.latex?\alpha&space;" title="http://latex.codecogs.com/svg.latex?\alpha " /> から関数f(x)のパラメータ <img src="http://latex.codecogs.com/svg.latex?\beta,&space;\beta_0&space;" title="http://latex.codecogs.com/svg.latex?\beta, \beta_0 " /> を求める。
 <br>
 <br>
 <br>
