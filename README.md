@@ -47,92 +47,60 @@ step5,
 <br>
 <br>
 
-### コード(active_set_method.py)に出てくる関数の説明
+### コード(SMO_SVM.py)に出てくる関数の説明
 
-前提：あらかじめnumpyとmatplotlib.pyplot、pandas、scaleのインポートが必要
-<br>
+- initialize():
 
-- calc_hyperplane():
-
-<img src="https://latex.codecogs.com/svg.image?f(\mathbf{x})=\sum_{i=1}^{N}&space;\alpha_i&space;y_i&space;\mathbf{x}_i^\mathsf{T}\mathbf{x}&plus;\beta" title="f(\mathbf{x})=\sum_{i=1}^{N} \alpha_i y_i \mathbf{x}_i^\mathsf{T}\mathbf{x}+\beta" />
-
-に　<img src="https://latex.codecogs.com/svg.image?\mathbf{x}=\rm{list\_type}" title="\mathbf{x}=\rm{list\_type}" />　を代入したときの値を返す関数。
+データの数や次元、データを分割する関数（超平面）のパラメータなどを初期化する関数。
 <br>
 <br>
 <br>
 
-- make_hyperplane()
+- gradient_f()
 
-描画用の
-<img src="https://latex.codecogs.com/svg.image?f(\mathbf{x})" title="f(\mathbf{x})" />
-を返す関数。
+データを分割する関数（超平面）の勾配ベクトルを求める関数。
 <br>
 <br>
 <br>
 
-- inappropriate_data()
+- inappropriate_index()
 
-step2で用いる、適していない集合に属するデータの個数を返す関数。
-<br>
-<br>
-<br>
-
-- transfer_data()
-
-step2,step4で用いる、データを別の集合に移す関数。
-<br>
-<br>
-<br>
-
-- solve()
-
-<img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />(仮)を作る関数。より具体的には
-
-<img src="https://latex.codecogs.com/svg.image?\mathbf{Q}_M=\begin{bmatrix}\mathbf{Q}_M_{i,j}\end{bmatrix}" title="\mathbf{Q}_M=\begin{bmatrix}\mathbf{Q}_M_{i,j}\end{bmatrix}" />
-
-<img src="https://latex.codecogs.com/svg.image?\mathbf{Q}_M_{i,j}=y_i&space;y_j&space;\mathbf{x}_i^\mathsf{T}&space;\mathbf{x}_j" title="\mathbf{Q}_M_{i,j}=y_i y_j \mathbf{x}_i^\mathsf{T} \mathbf{x}_j" />　　<img src="https://latex.codecogs.com/svg.image?i,j&space;\in&space;\textit{M}" title="i,j \in \textit{M}" />
-
-<img src="https://latex.codecogs.com/svg.image?\mathbf{Q}_{MIi,j}=y_iy_j\mathbf{x}_i^\mathsf{T}\mathbf{x}_j" title="\mathbf{Q}_{MIi,j}=y_iy_j\mathbf{x}_i^\mathsf{T}\mathbf{x}_j" />　　<img src="https://latex.codecogs.com/svg.image?i\in&space;\textit{M},j\in&space;\textit{I}" title="i\in \textit{M},j\in \textit{I}" />
-
-と定義する。このとき以下の式
-
-<img src="https://latex.codecogs.com/svg.image?\begin{bmatrix}&space;\mathbf{Q}_M&y_M&space;&space;\\&space;y_M^\mathsf{T}&0&space;&space;\\\end{bmatrix}\begin{bmatrix}&space;\alpha_M\\&space;\beta\end{bmatrix}&space;=-C\begin{bmatrix}\mathbf{Q}_{MI}&space;\mathbf{1}&space;\\\textbf{1}^\mathsf{T}y_I\end{bmatrix}&space;&plus;\begin{bmatrix}\textbf{1}&space;\\0\end{bmatrix}&space;" title="\begin{bmatrix} \mathbf{Q}_M&y_M \\ y_M^\mathsf{T}&0 \\\end{bmatrix}\begin{bmatrix} \alpha_M\\ \beta\end{bmatrix} =-C\begin{bmatrix}\mathbf{Q}_{MI} \mathbf{1} \\\textbf{1}^\mathsf{T}y_I\end{bmatrix} +\begin{bmatrix}\textbf{1} \\0\end{bmatrix} " />
-
-を
-<img src="https://latex.codecogs.com/svg.image?\alpha,\beta" title="\alpha,\beta" />
-について解いている。
-<br>
-<br>
-<br>
-
-- calc_eta()
-
-step3の
-<img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
-を
-<img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />(仮)
-に近づける度合いを返す関数。
-<br>
-<br>
-<br>
-
-- plot_scatter()
-
-データだけ（超平面はなし）をプロットする関数。
-<br>
-<br>
-<br>
-
-- plot_scatter_hyperplane()
-
-データと超平面をプロットする関数。
+step2で用いる、最も適切ではなさそうな <img src="http://latex.codecogs.com/svg.latex?\alpha&space;" title="http://latex.codecogs.com/svg.latex?\alpha " /> を見つける関数。
 <br>
 <br>
 <br>
 
 - optimize_alpha()
 
-step1~step5までを行う関数。
+step3,step4で用いる、<img src="http://latex.codecogs.com/svg.latex?\alpha_i,\alpha_j" title="http://latex.codecogs.com/svg.latex?\alpha_i,\alpha_j" /> を最適化する関数。
+<br>
+<br>
+<br>
+
+- f()
+
+描画に用いる、データを分割する関数（超平面）を求める関数。
+<br>
+<br>
+<br>
+
+- fit()
+
+データを分割する関数（超平面）のパラメータを求める関数。
+<br>
+<br>
+<br>
+
+- predict()
+
+与えられたデータからそのデータが-1と1のどちらに属するかを予測する関数。
+<br>
+<br>
+<br>
+
+- plot_scatter()
+
+データと超平面をプロットする関数。2次元のデータまたは3次元のデータにしか使えない。
 <br>
 <br>
 <br>
