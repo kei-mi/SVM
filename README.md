@@ -11,32 +11,22 @@ SVMの計算時間の改善を研究したい。そのためにはSVMの理解�
 
 上図のようなデータを分割する直線をf(x)とします。このときf(x)は以下となる。
 
-<img src="https://latex.codecogs.com/svg.image?f(\mathbf{x})=\sum_{i=1}^{N}&space;\alpha_i&space;y_i&space;\mathbf{x}_i^\mathsf{T}\mathbf{x}&plus;\beta" title="f(\mathbf{x})=\sum_{i=1}^{N} \alpha_i y_i \mathbf{x}_i^\mathsf{T}\mathbf{x}+\beta" />
+<img src="http://latex.codecogs.com/svg.latex?f(\mathbf{x})=\beta^\mathsf{T}\mathbf{x}&plus;\beta_0" />
 
-<img src="https://latex.codecogs.com/svg.image?\alpha&space;=&space;\begin{bmatrix}&space;\alpha_1\\&space;\vdots\\&space;\alpha_3\end{bmatrix}" title="\alpha = \begin{bmatrix} \alpha_1\\ \vdots\\ \alpha_3\end{bmatrix}" />
+<img src="http://latex.codecogs.com/svg.latex?\beta=\sum&space;^n_{i=1}\alpha&space;y_i&space;\mathbf{x}_i" title="http://latex.codecogs.com/svg.latex?\beta=\sum ^n_{i=1}\alpha y_i \mathbf{x}_i" />
+
+<img src="https://latex.codecogs.com/svg.image?\alpha&space;=&space;\begin{bmatrix}&space;\alpha_1\\&space;\vdots\\&space;\alpha_n\end{bmatrix}" title="\alpha = \begin{bmatrix} \alpha_1\\ \vdots\\ \alpha_n\end{bmatrix}" />
 <br>
 <br>
 
-データ
-<img src="https://latex.codecogs.com/svg.image?(x_i,y_i)" title="(x_i,y_i)" />
-を分割する関数fのパラメータ
-<img src="https://latex.codecogs.com/svg.image?\alpha,\beta" title="\alpha,\beta" />
-は以下の定理を満たす。         
+つまり <img src="http://latex.codecogs.com/svg.latex?\alpha&space;" title="http://latex.codecogs.com/svg.latex?\alpha " /> がわかればデータを分割する関数 <img src="http://latex.codecogs.com/svg.latex?f(\mathbf{x})" title="http://latex.codecogs.com/svg.latex?f(\mathbf{x})" /> がわかる。
 
-<img src="https://user-images.githubusercontent.com/91111835/154815554-aa4f8755-b82e-4b80-969f-ea0c6782a08b.png" width="300px">
-
-この定理を満たす
-<img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
-を有効制約法(Active Set Method)を用いて見つける。（
-<img src="https://latex.codecogs.com/svg.image?\beta" title="\beta" />
-は
-<img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
-から作れる）
+この <img src="http://latex.codecogs.com/svg.latex?\alpha&space;" title="http://latex.codecogs.com/svg.latex?\alpha " /> を逐次最小問題最適化法（SMO）を用いて見つける。
 <br>
 <br>
 <br>
 
-### 有効制約法(Active Set Method)の簡単な説明
+### 逐次最小問題最適化法（SMO）の簡単な説明
 
 以下のステップを順に行う。
 
