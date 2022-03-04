@@ -167,4 +167,4 @@ model.plot_scatter()
 
 出力
 
-<img src="https://user-images.githubusercontent.com/91111835/154819020-9e1d12cd-af16-4749-ba01-02c1757d7b6c.png" width="300px">
+<img src="https://user-images.githubusercontent.com/91111835/156774808-87bc571c-9765-43a0-bd4d-c3dd81adb271.png" width="300px">
