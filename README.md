@@ -118,15 +118,15 @@ import SMO_SVM
 
 df = pd.read_csv("train_svm1.csv")
 
-X=np.array(df.iloc[:,:-1])
+X = np.array(df.iloc[:, :-1])
 
-y=np.array(df.iloc[:,-1])
+y = np.array(df.iloc[:, -1])
 
 <br>
 
 model = SMO_SVM.SMO_SVM()
 
-model.fit(X,y)
+model.fit(X, y)
 
 model.plot_scatter()
 <br>
@@ -134,25 +134,34 @@ model.plot_scatter()
 
 出力
 
-<img src="https://user-images.githubusercontent.com/91111835/154817914-290ce910-f775-4884-b107-35e96b8d50f3.png" width="300px">
+<img src="https://user-images.githubusercontent.com/91111835/156773918-1b3ebaf1-db72-486d-bc04-f4db93181980.png" width="300px">
 <br>
 <br>
 <br>
 
-2. 自分でデータを用意する場合（データの数:100, 変数の数:2）
+2. 3次元のデータ(train_svm2.csv)を用いた場合（データの数:100, 変数の数:3）
 
-import pandas
+import pandas as pd
 
-import numpy
+import numpy as np
 
-import matplotlib.pyplot as plt
+import SMO_SVM
 
-from sklearn.preprocessing import scale
 <br>
 
-AS = ActiveSet(100, 2, data_set="train_svm.xlsx")
+df = pd.read_csv("train_svm2.csv")
 
-AS.optimize_alpha()
+X = np.array(df.iloc[:, :-1])
+
+y = np.array(df.iloc[:, -1])
+
+<br>
+
+model = SMO_SVM.SMO_SVM()
+
+model.fit(X, y)
+
+model.plot_scatter()
 <br>
 <br>
 
