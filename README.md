@@ -105,21 +105,30 @@ step3,step4で用いる、<img src="http://latex.codecogs.com/svg.latex?\alpha_i
 <br>
 <br>
 
-### 実行例
-1. クラス内で用意されたデータを用いる場合（データの数:50, 変数の数:2）
+### 実行例(用いたデータはにあります。)
+1. 2次元のデータ(train_svm1.csv)を用いた場合（データの数:100, 変数の数:2）
 
-import pandas
+import pandas as pd
 
-import numpy
+import numpy as np
 
-import matplotlib.pyplot as plt
+import SMO_SVM
 
-from sklearn.preprocessing import scale
 <br>
 
-AS = ActiveSet(50, 2)
+df = pd.read_csv("train_svm1.csv")
 
-AS.optimize_alpha()
+X=np.array(df.iloc[:,:-1])
+
+y=np.array(df.iloc[:,-1])
+
+<br>
+
+model = SMO_SVM.SMO_SVM()
+
+model.fit(X,y)
+
+model.plot_scatter()
 <br>
 <br>
 
