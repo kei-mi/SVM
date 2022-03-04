@@ -105,7 +105,7 @@ step3,step4で用いる、<img src="http://latex.codecogs.com/svg.latex?\alpha_i
 <br>
 <br>
 
-### 実行例(用いたデータはにあります。)
+### 実行例(用いたデータは同じリポジトリにあります。)
 1. 2次元のデータ(train_svm1.csv)を用いた場合（データの数:100, 変数の数:2）
 
 import pandas as pd
