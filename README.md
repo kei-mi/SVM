@@ -108,6 +108,8 @@ step3,step4で用いる、<img src="http://latex.codecogs.com/svg.latex?\alpha_i
 ### 実行例(用いたデータは同じリポジトリにあります。)
 1. 2次元のデータ(train_svm1.csv)を用いた場合（データの数:100, 変数の数:2）
 
+入力
+
 import pandas as pd
 
 import numpy as np
@@ -134,7 +136,7 @@ model.plot_scatter()
 
 出力
 
-<img src="https://user-images.githubusercontent.com/91111835/156773918-1b3ebaf1-db72-486d-bc04-f4db93181980.png" width="300px">
+<img src="https://user-images.githubusercontent.com/91111835/157197714-b1abbf20-1e05-4cd5-b669-6ba3573fd487.png" width="300px">
 <br>
 <br>
 <br>
