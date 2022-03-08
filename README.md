@@ -7,7 +7,7 @@
 
 ### 線形SVMの簡単な説明
 
-![svm_example1](https://user-images.githubusercontent.com/91111835/156761372-3121394b-7442-4f1e-bd94-d292ab417491.png)
+![svm_example1](https://user-images.githubusercontent.com/91111835/157197275-575608e5-9f4a-4d54-b60d-935524fcb1bb.png)
 
 上図のようなデータを分割する直線をf(x)とします。このときf(x)は以下となる。
 
