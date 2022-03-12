@@ -65,7 +65,7 @@ step5,
 
 - inappropriate_index()
 
-step2で用いる、最も適切ではなさそうな <img src="http://latex.codecogs.com/svg.latex?\alpha&space;" title="http://latex.codecogs.com/svg.latex?\alpha " /> を見つける関数。
+step2で用いる、最も適切ではなさそうな <img src="http://latex.codecogs.com/svg.latex?\alpha&space;" title="http://latex.codecogs.com/svg.latex?\alpha " /> のインデックスを見つける関数。
 <br>
 <br>
 <br>
